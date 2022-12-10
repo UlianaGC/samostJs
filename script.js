@@ -44,5 +44,3 @@ console.log(`Средний балл группы по js - ${balljs / students.
 let ballphp = 0
 students.forEach(item => ballphp += item.php)
 console.log(`Средний балл группы по php - ${ballphp / students.length}`)
-
-
