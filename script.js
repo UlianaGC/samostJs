@@ -33,14 +33,3 @@ students.forEach(item => {
         countQuality++
 })
 console.log(`Качественная успеваемость группы - ${countQuality / students.length * 100}%`)
-
-console.log('Успеваемость по каждому экзамену:')
-let ballbd = 0
-students.forEach(item => ballbd += item.bd)
-console.log(`Средний балл группы по бд - ${ballbd / students.length}`)
-let balljs = 0
-students.forEach(item => balljs += item.js)
-console.log(`Средний балл группы по js - ${balljs / students.length}`)
-let ballphp = 0
-students.forEach(item => ballphp += item.php)
-console.log(`Средний балл группы по php - ${ballphp / students.length}`)
